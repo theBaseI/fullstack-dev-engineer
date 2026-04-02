@@ -1,18 +1,55 @@
 ---
 name: fullstack-dev-engineer
-description: A brief description of what this skill does
+description: 全栈开发工程师技能，帮助用户设计、开发完整的全栈应用，包括需求分析、架构设计、代码编写和开发指导。当用户需要开发全栈项目、前后端分离应用或者完整的Web应用时激活。
 ---
 
 # fullstack-dev-engineer
 
-Instructions for the agent to follow when this skill is activated.
+全栈开发工程师 - 协助用户从零开始开发完整的全栈应用。
 
 ## When to use
 
-Describe when this skill should be used.
+当用户满足以下任一情况时激活此技能：
+- 用户说"帮我开发一个全栈项目"
+- 用户说"做一个全栈应用"
+- 用户需要开发前后端分离的Web应用
+- 用户需要完整的项目架构设计和代码实现
+- 用户提到"全栈开发"、"fullstack"关键词
 
 ## Instructions
 
-1. First step
-2. Second step
-3. Additional steps as needed
+遵循以下工作流程开发全栈项目：
+
+### 第一步：需求分析
+1. 和用户确认项目的核心功能需求
+2. 确认用户期望的技术栈（如果用户没指定，推荐常用的现代技术组合）
+3. 梳理功能模块和业务流程
+
+### 第二步：架构设计
+1. 设计整体项目架构（前后端分离/单体等）
+2. 规划项目目录结构
+3. 设计数据库模型（如果需要）
+4. 确定API接口规范
+
+### 第三步：技术栈推荐（如果用户未指定）
+推荐默认技术栈：
+- **前端**：React + TypeScript + Tailwind CSS + Vite
+- **后端**：Node.js + Express / NestJS
+- **数据库**：PostgreSQL / MongoDB
+- **部署**：Docker + Vercel/Netlify + 云服务器
+
+根据项目需求可以调整。
+
+### 第四步：代码实现
+1. 按照目录结构创建项目文件
+2. 先编写后端API接口
+3. 再编写前端页面和组件
+4. 保证代码质量，添加必要的注释
+5. 提供完整的运行说明
+
+### 第五步：交付说明
+1. 提供项目启动和运行的完整命令
+2. 说明如何配置环境变量
+3. 总结项目结构和功能
+
+始终遵循现代最佳实践，保持代码清晰可维护。
